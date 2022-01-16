@@ -1,0 +1,29 @@
+{
+  "name": "vibrato",
+  "version": "1.0.0",
+  "description": "Personal discord music bot for playing music efforlessly",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitraylee/Vibrato.git"
+  },
+  "author": "Anshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitraylee/Vibrato/issues"
+  },
+  "homepage": "https://github.com/bitraylee/Vibrato#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "yt-search": "^0.1.1",
+    "ytdl-core": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
