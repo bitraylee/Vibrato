@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js"
-    
   },
   "repository": {
     "type": "git",
@@ -19,8 +18,12 @@
   },
   "homepage": "https://github.com/bitraylee/Vibrato#readme",
   "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.7.5",
     "discord.js": "^13.6.0",
-    "yt-search": "^0.1.1",
+    "ffmpeg-static": "^4.4.1",
+    "play-dl": "^1.7.8",
+    "yt-search": "^2.10.3",
     "ytdl-core": "^4.10.0"
   },
   "devDependencies": {
